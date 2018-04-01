@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Imre Boda blog</title>
+    <link>/</link>
+    <description>Recent content on Imre Boda blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 30 Mar 2018 21:13:14 -0500</lastBuildDate>
+    
+	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>CEU Unstructured Text Analysis Seminar - Assignment</title>
+      <link>/2018/03/30/ceu-unstructured-text-analysis-seminar---assignment/</link>
+      <pubDate>Fri, 30 Mar 2018 21:13:14 -0500</pubDate>
+      
+      <guid>/2018/03/30/ceu-unstructured-text-analysis-seminar---assignment/</guid>
+      <description>IntroductionThis is my term assignment of the Unstructured Text Analysis Seminar at CEU in the 2018 winter semester. The course was held by Mr. Eduardo Arino de la Rubia. The assignment was about to create something that use the stuff taught and learnt in the course. I used a lot from the techniques described in the great book “Text Mining with R” by Julia Silge and David Robinson.
+My work is a Facebook post and comment analyzer shiny dashboard.</description>
+    </item>
+    
+    <item>
+      <title>About</title>
+      <link>/about/</link>
+      <pubDate>Thu, 05 May 2016 21:48:51 -0700</pubDate>
+      
+      <guid>/about/</guid>
+      <description>This is a &amp;ldquo;hello world&amp;rdquo; example website for the blogdown package. The theme was forked from @jrutheiser/hugo-lithium-theme and modified by Yihui Xie.</description>
+    </item>
+    
+  </channel>
+</rss>
