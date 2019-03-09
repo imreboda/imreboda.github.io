@@ -6,10 +6,20 @@
     <description>Recent content on Imre Boda blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 30 Mar 2018 21:13:14 -0500</lastBuildDate>
+    <lastBuildDate>Sat, 09 Mar 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Time Series Analysis - Did broadband penetration impact number of new enterprises</title>
+      <link>/2019/03/09/time-series-analysis-did-broadband-penetration-impact-number-of-new-enterprises/</link>
+      <pubDate>Sat, 09 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/2019/03/09/time-series-analysis-did-broadband-penetration-impact-number-of-new-enterprises/</guid>
+      <description>body {text-align: justify}AbstractAnalysis on possible causal relationship between Broadband penetration and Number of newly established enterprises in Europe based on World Bank data between 2006 and 2016
+ScopeProbably the biggest transformative innovation of the last century was Internet, with indisputably enormous impact on every walk of life, including entertainment, transport, business and society. All these ?miracles? could not have been delivered without broadband access as enabling platform.</description>
+    </item>
     
     <item>
       <title>Telco vendors&#39; key Facebook messages</title>
@@ -17,8 +27,7 @@
       <pubDate>Fri, 30 Mar 2018 21:13:14 -0500</pubDate>
       
       <guid>/2018/03/30/telco-vendors-key-facebook-messages/</guid>
-      <description>IntroductionThis is my term assignment of the Unstructured Text Analysis Seminar at CEU in the 2018 winter semester. The course was held by Mr. Eduardo Arino de la Rubia. The assignment was about to create something that use the stuff taught and learnt in the course. I used a lot from the techniques described in the great book “Text Mining with R” by Julia Silge and David Robinson.
-My work is a Facebook post and comment analyzer shiny dashboard.</description>
+      <description>IntroductionThis is my term assignment of the Unstructured Text Analysis Seminar at CEU in the 2018 winter semester. The course was held by Mr. Eduardo Arino de la Rubia. The assignment was about to create something that use the stuff taught and learnt in the course. I used a lot from the techniques described in the great book “Text Mining with R” by Julia Silge and David Robinson.</description>
     </item>
     
     <item>
