@@ -1,6 +1,79 @@
-<p>+++ title = “2018-03-30-Ceu-Unstructured-Text-Course-Assignment” date = “2018-03-30T22:33:09+02:00” draft = true</p>
-<p>+++</p>
-<div id="this-is-it" class="section level4">
-<h4>This is it</h4>
-<p>cool</p>
-</div>
+
+<table style="text-align:center"><caption><strong>Comparing FD models with explicit time dummies</strong></caption>
+<tr><td colspan="5" style="border-bottom: 1px solid black"></td></tr><tr><td style="text-align:left"></td><td colspan="4">Dependent Variable: Log Number of new business registered</td></tr>
+<tr><td></td><td colspan="4" style="border-bottom: 1px solid black"></td></tr>
+<tr><td style="text-align:left"></td><td>FD0</td><td>FD2</td><td>FD4</td><td>FD6</td></tr>
+<tr><td style="text-align:left"></td><td>(1)</td><td>(2)</td><td>(3)</td><td>(4)</td></tr>
+<tr><td colspan="5" style="border-bottom: 1px solid black"></td></tr><tr><td style="text-align:left">Constant</td><td>0.12501<sup>***</sup></td><td>-0.10969<sup>**</sup></td><td>0.03171</td><td>0.09865<sup>***</sup></td></tr>
+<tr><td style="text-align:left"></td><td>(0.03488)</td><td>(0.04709)</td><td>(0.03707)</td><td>(0.03061)</td></tr>
+<tr><td style="text-align:left"></td><td></td><td></td><td></td><td></td></tr>
+<tr><td style="text-align:left">diff(FBB_perca)</td><td>-0.00638</td><td>0.00222</td><td>0.00962</td><td>0.01142</td></tr>
+<tr><td style="text-align:left"></td><td>(0.00793)</td><td>(0.01250)</td><td>(0.01334)</td><td>(0.01101)</td></tr>
+<tr><td style="text-align:left"></td><td></td><td></td><td></td><td></td></tr>
+<tr><td style="text-align:left">lag(diff(FBB_perca), 1:2)1</td><td></td><td>-0.00684</td><td></td><td></td></tr>
+<tr><td style="text-align:left"></td><td></td><td>(0.01011)</td><td></td><td></td></tr>
+<tr><td style="text-align:left"></td><td></td><td></td><td></td><td></td></tr>
+<tr><td style="text-align:left">lag(diff(FBB_perca), 1:2)2</td><td></td><td>-0.00571</td><td></td><td></td></tr>
+<tr><td style="text-align:left"></td><td></td><td>(0.01030)</td><td></td><td></td></tr>
+<tr><td style="text-align:left"></td><td></td><td></td><td></td><td></td></tr>
+<tr><td style="text-align:left">lag(diff(FBB_perca), 1:4)1</td><td></td><td></td><td>-0.00022</td><td></td></tr>
+<tr><td style="text-align:left"></td><td></td><td></td><td>(0.01226)</td><td></td></tr>
+<tr><td style="text-align:left"></td><td></td><td></td><td></td><td></td></tr>
+<tr><td style="text-align:left">lag(diff(FBB_perca), 1:4)2</td><td></td><td></td><td>-0.01842<sup>**</sup></td><td></td></tr>
+<tr><td style="text-align:left"></td><td></td><td></td><td>(0.00748)</td><td></td></tr>
+<tr><td style="text-align:left"></td><td></td><td></td><td></td><td></td></tr>
+<tr><td style="text-align:left">lag(diff(FBB_perca), 1:4)3</td><td></td><td></td><td>0.00299</td><td></td></tr>
+<tr><td style="text-align:left"></td><td></td><td></td><td>(0.00607)</td><td></td></tr>
+<tr><td style="text-align:left"></td><td></td><td></td><td></td><td></td></tr>
+<tr><td style="text-align:left">lag(diff(FBB_perca), 1:4)4</td><td></td><td></td><td>0.00791</td><td></td></tr>
+<tr><td style="text-align:left"></td><td></td><td></td><td>(0.01007)</td><td></td></tr>
+<tr><td style="text-align:left"></td><td></td><td></td><td></td><td></td></tr>
+<tr><td style="text-align:left">lag(diff(FBB_perca), 1:6)1</td><td></td><td></td><td></td><td>0.01793<sup>*</sup></td></tr>
+<tr><td style="text-align:left"></td><td></td><td></td><td></td><td>(0.01089)</td></tr>
+<tr><td style="text-align:left"></td><td></td><td></td><td></td><td></td></tr>
+<tr><td style="text-align:left">lag(diff(FBB_perca), 1:6)2</td><td></td><td></td><td></td><td>-0.02578<sup>**</sup></td></tr>
+<tr><td style="text-align:left"></td><td></td><td></td><td></td><td>(0.01215)</td></tr>
+<tr><td style="text-align:left"></td><td></td><td></td><td></td><td></td></tr>
+<tr><td style="text-align:left">lag(diff(FBB_perca), 1:6)3</td><td></td><td></td><td></td><td>-0.00555</td></tr>
+<tr><td style="text-align:left"></td><td></td><td></td><td></td><td>(0.00728)</td></tr>
+<tr><td style="text-align:left"></td><td></td><td></td><td></td><td></td></tr>
+<tr><td style="text-align:left">lag(diff(FBB_perca), 1:6)4</td><td></td><td></td><td></td><td>0.02221<sup>*</sup></td></tr>
+<tr><td style="text-align:left"></td><td></td><td></td><td></td><td>(0.01241)</td></tr>
+<tr><td style="text-align:left"></td><td></td><td></td><td></td><td></td></tr>
+<tr><td style="text-align:left">lag(diff(FBB_perca), 1:6)5</td><td></td><td></td><td></td><td>-0.03495<sup>**</sup></td></tr>
+<tr><td style="text-align:left"></td><td></td><td></td><td></td><td>(0.01376)</td></tr>
+<tr><td style="text-align:left"></td><td></td><td></td><td></td><td></td></tr>
+<tr><td style="text-align:left">lag(diff(FBB_perca), 1:6)6</td><td></td><td></td><td></td><td>0.00061</td></tr>
+<tr><td style="text-align:left"></td><td></td><td></td><td></td><td>(0.00752)</td></tr>
+<tr><td style="text-align:left"></td><td></td><td></td><td></td><td></td></tr>
+<tr><td style="text-align:left">Year2008</td><td>-0.14704<sup>***</sup></td><td></td><td></td><td></td></tr>
+<tr><td style="text-align:left"></td><td>(0.03247)</td><td></td><td></td><td></td></tr>
+<tr><td style="text-align:left"></td><td></td><td></td><td></td><td></td></tr>
+<tr><td style="text-align:left">Year2009</td><td>-0.26846<sup>***</sup></td><td></td><td></td><td></td></tr>
+<tr><td style="text-align:left"></td><td>(0.04436)</td><td></td><td></td><td></td></tr>
+<tr><td style="text-align:left"></td><td></td><td></td><td></td><td></td></tr>
+<tr><td style="text-align:left">Year2010</td><td>-0.04754</td><td>0.19941<sup>***</sup></td><td></td><td></td></tr>
+<tr><td style="text-align:left"></td><td>(0.03224)</td><td>(0.03915)</td><td></td><td></td></tr>
+<tr><td style="text-align:left"></td><td></td><td></td><td></td><td></td></tr>
+<tr><td style="text-align:left">Year2011</td><td>-0.07828<sup>**</sup></td><td>0.16701<sup>***</sup></td><td></td><td></td></tr>
+<tr><td style="text-align:left"></td><td>(0.03738)</td><td>(0.04676)</td><td></td><td></td></tr>
+<tr><td style="text-align:left"></td><td></td><td></td><td></td><td></td></tr>
+<tr><td style="text-align:left">Year2012</td><td>-0.05930</td><td>0.18158<sup>***</sup></td><td>0.01882</td><td></td></tr>
+<tr><td style="text-align:left"></td><td>(0.05215)</td><td>(0.04553)</td><td>(0.05776)</td><td></td></tr>
+<tr><td style="text-align:left"></td><td></td><td></td><td></td><td></td></tr>
+<tr><td style="text-align:left">Year2013</td><td>-0.05963</td><td>0.17935<sup>***</sup></td><td>0.01629</td><td></td></tr>
+<tr><td style="text-align:left"></td><td>(0.04213)</td><td>(0.04204)</td><td>(0.03884)</td><td></td></tr>
+<tr><td style="text-align:left"></td><td></td><td></td><td></td><td></td></tr>
+<tr><td style="text-align:left">Year2014</td><td>-0.10922<sup>***</sup></td><td>0.13374<sup>***</sup></td><td>-0.02285</td><td>-0.05632<sup>*</sup></td></tr>
+<tr><td style="text-align:left"></td><td>(0.04192)</td><td>(0.04058)</td><td>(0.03994)</td><td>(0.03035)</td></tr>
+<tr><td style="text-align:left"></td><td></td><td></td><td></td><td></td></tr>
+<tr><td style="text-align:left">Year2015</td><td>-0.10831<sup>***</sup></td><td>0.13029<sup>***</sup></td><td>-0.02229</td><td>-0.05145<sup>**</sup></td></tr>
+<tr><td style="text-align:left"></td><td>(0.03845)</td><td>(0.03770)</td><td>(0.03365)</td><td>(0.02373)</td></tr>
+<tr><td style="text-align:left"></td><td></td><td></td><td></td><td></td></tr>
+<tr><td style="text-align:left">Year2016</td><td>-0.06220<sup>*</sup></td><td>0.17859<sup>***</sup></td><td>0.02141</td><td>-0.02697</td></tr>
+<tr><td style="text-align:left"></td><td>(0.03350)</td><td>(0.04458)</td><td>(0.03113)</td><td>(0.02990)</td></tr>
+<tr><td style="text-align:left"></td><td></td><td></td><td></td><td></td></tr>
+<tr><td colspan="5" style="border-bottom: 1px solid black"></td></tr><tr><td style="text-align:left">Observations</td><td>437</td><td>356</td><td>267</td><td>177</td></tr>
+<tr><td style="text-align:left">R<sup>2</sup></td><td>0.13016</td><td>0.11314</td><td>0.02873</td><td>0.14577</td></tr>
+<tr><td colspan="5" style="border-bottom: 1px solid black"></td></tr><tr><td style="text-align:left"><em>Note:</em></td><td colspan="4" style="text-align:left"><sup>*</sup>p&lt;0.1; <sup>**</sup>p&lt;0.05; <sup>***</sup>p&lt;0.01</td></tr>
+</table>
